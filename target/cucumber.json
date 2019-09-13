@@ -1,0 +1,131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3692646700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PopularShowSteps.beforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "adding title and duration of  popular show  to a file.",
+        "description": "",
+        "id": "popular-show-title-and-duration-to-a-file.;adding-title-and-duration-of--popular-show--to-a-file.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 953131100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PopularShowSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7036750200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "application \"https://go.discovery.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://go.discovery.com/",
+                  "offset": 13
+                }
+              ],
+              "location": "PopularShowSteps.application(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify that home page is displayed.",
+            "match": {
+              "location": "PopularShowSteps.verify_that_home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 76742200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Scroll down to popular shows",
+            "match": {
+              "location": "PopularShowSteps.scroll_down_to_popular_shows()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7785630600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Navigate to the last video by pressing the icon “\u003e”",
+            "match": {
+              "location": "PopularShowSteps.navigate_to_the_last_video_by_pressing_the_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161577000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Once you reach the last video, click on EXPLORE THE SHOW",
+            "match": {
+              "location": "PopularShowSteps.once_you_reach_the_last_video_click_on_EXPLORE_THE_SHOW()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14197754400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on “SHOW MORE”  til last page  and write all the show titles and duration into it.",
+            "match": {
+              "location": "PopularShowSteps.click_on_SHOW_MORE_til_last_page_and_write_all_the_show_titles_and_duration_into_it()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@AllShows"
+          }
+        ]
+      }
+    ],
+    "name": "popular show title and duration to a file.",
+    "description": "",
+    "id": "popular-show-title-and-duration-to-a-file.",
+    "keyword": "Feature",
+    "uri": "popular shows.feature"
+  }
+]
